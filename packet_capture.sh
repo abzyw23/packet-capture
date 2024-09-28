@@ -143,4 +143,4 @@ echo "$protocol_data" | while read count protocol; do
     printf "${status} %-15s %s packets (%.2f%%)\n" "$protocol" "$count" "$percentage"
 done
 
-echo -e "\n${GREEN} @FreakXray Analysis complete.${NC}"
+echo -e "\n${GREEN} Analysis complete.${NC}"
